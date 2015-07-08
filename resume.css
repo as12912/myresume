@@ -1,0 +1,241 @@
+body{
+	width: 1330px;
+	margin-left: 10px;
+	background-color: white;
+}
+
+#banner{
+	background-color: #006442;
+	padding: 280px;
+	color: white;
+	width: 770px;
+	height: 175px;
+	background-color: #003171;
+	font-size: 20px;
+	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+	animation-name: example;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+	from {background-color: #5B8930;}
+	to {background-color: #19B5FE;}
+
+}
+
+/* Standard syntax */
+@keyframes example {
+	from {background-color: #5B8930;}
+	to {background-color: #19B5FE;}
+
+}
+
+
+
+.nav
+{ 
+    background-image:url(image/nevigation.jpg);
+    background-repeat:repeat-x;
+    background-position:top;
+    width: 1330px;
+    margin-bottom: 10px;o
+    position: fixed;
+}
+.nav table
+{ 
+    margin-left: 145PX;
+    border-collapse:collapse;
+}
+.nav table td a
+{
+    display:block;
+    text-decoration:none;
+    
+    padding:15px 0 21px 0;
+    color:#FFFCE;
+    text-align:center;
+    width:150px;
+    font-family:Arial;
+    color:bLACK;
+}
+
+#career_section{
+	background-color: #FFFFCE;
+	color: black;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 1330px;
+	margin-top: -10px;
+}
+.career_objective
+{
+	height: 520px;
+	width: 1330px;
+	background-color: #FFFFCE;
+}
+.career_objective2{
+	text-align: justify;
+	padding-left: 0px;
+}
+
+
+
+#educational_section{
+	width: 1330px;
+	background-color: #FFFFCE;
+	color: black;
+	margin-top: -50px;
+} 
+
+
+.edu_grid_box{
+	width: 250px;
+	height: 250px;
+	float: left;
+	text-align: center;
+	
+	border-radius: 15px;
+	margin: 95px;
+} 
+
+
+
+#technical_section{
+	background-color:#FFFFCE;
+	color:black;
+	width: 1330px;
+	height: 450px;
+	text-align: center;
+	
+	margin-top: -50px;
+}
+
+
+#project_section{
+	width: 1330px;
+	height: 550px;
+	text-align: center;
+	background-color: #FFFFCE;
+	color: #FFFFCE;
+	margin-top: -50px;
+}
+
+#summer_section
+{	
+	width: 1330px;
+	height: 450px;
+	text-align: center;
+	background-color: #FFFFCE;
+	margin-top: -50px;
+	color: black;
+}
+
+section article img{
+	margin: 40px;
+}
+
+#achievement_section{
+	background-color:#FFFFCE;
+	color:black;
+	width: 1330px;
+	height: 450px;
+	text-align: center;
+	margin-top: -50px;
+}
+
+#person_section{
+	background-color:#D24D57;
+	color:white;
+	width: 1330px;
+	height: 450px;
+	margin-top: -45px;
+	margin-bottom: 0px;
+}
+
+
+.grid_box1{
+	width: 435px;
+	float: left;
+	text-align: center;
+} 
+.grid_box2{
+	width: 400px;
+	float: left;
+	text-align: left;
+	margin: 10px;
+	color: white;
+} 
+
+.equal_box1{
+	width: 665px;
+	float: left;
+	text-align: center;	
+}
+.equal_box2{
+	width: 665px;
+	float: left;
+	text-align: center;	
+	
+}
+
+section
+{
+	background-color: #FFFFCE;
+	margin-top: 10px;
+	width: 665px;
+	float: left;
+	height: 500px;
+	margin-bottom: 50px;
+}
+#sec{
+	float: left;
+
+}
+section article ul li{
+
+	display: list-item;
+}
+
+article{
+	float: left;
+	color: black;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 20px;
+}
+p{
+	
+	font-size: 20PX;
+
+}
+.background_black{
+	background-color: black;
+	
+	color: white;
+	margin-top: -17px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+ #up_arrow{
+	
+  position: fixed;
+  bottom: 100px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  text-indent: 100%;
+  background: url('image/uparrow.png') no-repeat right top;
+  border: 2px solid transparent;
+} 
+section article img{
+	border-radius: 30px;
+	
+}
